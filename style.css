@@ -4,7 +4,15 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small{
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    outline: none;
+}
+.conteiner{
+    width: 100%;
+    max-width: 85px;
+    margin: 0 auto;
+                                                                                                                                                                                                                                                                                                m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+.hidden{
+    display: none;
 }
 body{}
 
