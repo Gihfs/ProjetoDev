@@ -1,58 +1,31 @@
-html, body, header, main, footer, article, div, span, p, a, figure, img, small{
+html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
+    outline: none;
+    list-style: none;
 }
-.conteiner{
+.container{
     width: 100%;
-    max-width: 85px;
+    max-width: 850px;
     margin: 0 auto;
-                                                                                                                                                                                                                                                                                                m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    padding: 0 30px;
 }
 .hidden{
     display: none;
 }
-body{}
+body{
+    
+        font-family: 'Roboto', sans-serif;
+}
 
-header{}
-header.container{}
-header.linha{}
-header.linha_coluna {}
-header a{}
-header a figure{}
-header a figure img{}
-header ul{}
-header ul li a{}
-header ul li img{}
+header{
+    padding: 12px 0;
+}
 
-main{}
-main article{}
-main article.container{}
-main article.linha{}
-main article secaousuario{}
-main article secaousuario.linha{}
-main article secaousuario.linha_coluna{}
-main article secaousuario.figure{}
-main article secaousuario.figure img{}
-main article secaousuario.sobreusuario{}
-main article secaousuario.sobreusuario_nome{}
-main article secaousuario.sobreusuario_nome h2{}
-main article secaousuario.sobreusuario_nome button{}
-main article secaousuario.sobreusuario_seguidores{}
-main article secaousuario.sobreusuario_seguidores ul{}
-main article secaousuario.sobreusuario_seguidores ul li{}
-main article secaousuario.sobreusuario_seguidores ul li a{}
-main article secaousuario.sobreusuario_seguidores ul li a strong{}
-main article secaousuario.sobreusuario_descricao{}
-main article secaousuario.sobreusuario_descricao h3{}
-main article secaousuario.sobreusuario_descricao p{}
-main article secaousuario.sobreusuario_descricao p a {}
-
-main article secaodestaquesUsuario{}
-main article secaodestaquesUsuario ul{}
-main article secaodestaquesUsuario ul li{}
-main article secaodestaquesUsuario ul li figure{}
-main article secaodestaquesUsuario ul li figure img{}
-main article secaodestaquesUsuario ul li h3{}
+header.linha{
+  display: flex;
+  justify-content: space-between;  
+}
